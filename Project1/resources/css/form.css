@@ -1,0 +1,191 @@
+.form-container{
+    
+    width:27%;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: 	#ededed;
+    padding-bottom: 1em;
+    position: relative;
+    }
+    .red{
+        color:red;
+    }
+    .error-container{
+        left:36.5%;
+        width:27%;
+        top:17%;
+        margin: 0px auto;
+        position: absolute;
+        border-radius: 10px 10px 0px 0px ;
+        background-color:firebrick;
+        color:white;
+        padding-bottom: 1em;
+        font-size: 20px;
+        align-items: center;
+        }
+        .remember{
+            margin-top: 1.5em;
+          
+        }
+        .success-container{
+            left:36.5%;
+            width:27%;
+            top:17%;
+            margin: 0px auto;
+            position: absolute;
+            border-radius: 10px 10px 0px 0px ;
+            background-color:limegreen;
+            color:white;
+            padding-bottom: 1em;
+            font-size: 20px;
+            align-items: center;
+            }
+    
+    .d-flex{
+       display: flex;
+       justify-content: center;
+     
+    }
+    .form-footer a{
+        text-decoration: none;
+        color:#18A0FB;
+    }
+    .red,
+    .error{
+        color:red;
+    }
+    .error{
+        color:red;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-size: 16px;
+        text-align: left;
+       
+    }
+    .contact-form{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:90%;
+        margin: 0px auto;
+        margin-top: 2rem;
+    }
+    .contact-form h1{
+        font-size: 3em;
+        color:#18A0FB;
+        font-weight: bold;
+    
+    }
+    .contact-form p{
+        font-size: 1.2rem;
+    }
+    .info{
+        color:#18A0FB;
+    }
+    .contact-form input[type='text'],
+    .contact-form input[type='email'],
+    .contact-form input[type='textarea']{
+        width: 28rem;
+        height: 2.8rem;
+    }
+    .submit-btn{
+        font-size: 1.2rem;
+        width:100%;
+        padding: 0.8em 0px;
+        margin: 1.5rem 0px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #18A0FB;
+    }
+    .contact-input label{
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        display: block;
+    }
+    .rounded-container{
+        width: 40rem;
+        height: 42rem;
+        background: #ededed;
+        border-radius: 100%;
+    }
+    .box-container{
+        align-items: center;
+        width: 28rem;
+        height: 26rem;
+       
+        background-color:#18A0FB;
+        position: absolute;
+        top:35%;
+        right: 0px;
+       
+    }
+    .box-container h1{
+        color: white;
+        font-size: 3rem;
+    }
+    .icon{
+        font-size: 2rem;
+      
+    }
+    .fontawesome{
+        margin-top: 2rem;
+    }
+    .fontawesome p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p span{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+        color:white;
+    }
+    
+    .form-container input[type='text'],
+    .form-container input[type='password'],
+    .form-container input[type='email']
+    {
+        outline: none;
+        margin-top: 1em;
+        width:80%;
+        border: none;
+        border: 0.2px solid gray;
+        height: 45px;
+        border-radius: 3px;
+    }
+    .mg2{
+        color:red;
+    }
+    .form-group{
+        align-items: center;
+    }
+    .form-submit{
+        background-color:#18A0FB ;
+        padding:1em 4em;
+        margin-top: 1em;
+        border:none;
+        color: white;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+    .form-container h1{
+        padding-top: 0.5em;
+        text-align: center;
+        color: #18A0FB;
+        font-size: 2em;
+    }
+    .form-container p{
+    
+        font-size:1.5em;
+        text-align: center;
+    
+    }
+    .form-footer{
+        font-size:1.5em;
+        margin-top:1em;
+    }
